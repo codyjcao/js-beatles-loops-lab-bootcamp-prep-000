@@ -3,7 +3,7 @@ function theBeatlesPlay(musicians, instruments){
   
   for (var i = 0; i < musicians.length; i++){
     var temp = `${musicians[i]} plays ${instruments[i]}`
-    array.push(temp)
+    array.splice(i,0,temp)
   }
   return array 
 }
@@ -12,14 +12,14 @@ function johnLennonFacts(array){
   var result = {}
   for (var i = 0; i < array.length; i++){
     var temp = array[i] + "!!!"
-    result.splice(temp)
+    result.splice(i,0,temp)
   }
 }
 
 function iLoveTheBeatles(n){
   var result = {}
   do {
-    result.push("I love the Beatles!")
+    result.splice(i,0,"I love the Beatles!")
     n++
   } while(n < 15)
   return result
