@@ -19,7 +19,7 @@ function johnLennonFacts(array){
 function iLoveTheBeatles(n){
   var result = {}
   do {
-    b++
+    n++
   } while(n < 15)
   return result
 }
