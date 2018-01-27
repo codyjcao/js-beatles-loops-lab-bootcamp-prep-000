@@ -19,8 +19,7 @@ function johnLennonFacts(array){
 function iLoveTheBeatles(n){
   var result = {}
   do {
-    result.splice(i,0,"I love the Beatles!")
-    n++
+    
   } while(n < 15)
   return result
 }
