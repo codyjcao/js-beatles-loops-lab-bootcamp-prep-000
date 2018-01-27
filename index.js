@@ -12,7 +12,7 @@ function johnLennonFacts(array){
   var result = {}
   for (var i = 0; i < array.length; i++){
     var temp = array[i] + "!!!"
-    result.push(temp)
+    result.splice(temp)
   }
 }
 
